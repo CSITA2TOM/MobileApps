@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient android:angle="45" />
+    <!--設定邊距-->
+    <padding
+        android:bottom="20dp"
+        android:left="20dp"
+        android:right="20dp"
+        android:top="20dp" />
+    <!-- 設定圓角矩形 -->
+    <corners android:radius="20dp" />
+
+
+    <!--設定邊框粗細與顏色-->
+    <stroke
+        android:width="2px"
+        android:color="@color/inputgray" />
+
+    <solid android:color="@color/inputgray" />
+
+</shape>
